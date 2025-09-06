@@ -1,0 +1,17 @@
+# Core data & computation
+numpy==1.26.4
+pandas==2.0.3         # compatible wheel for Python 3.13
+
+# Web / API
+requests==2.31.0
+openai==0.28.0
+
+# Visualization
+plotly                 # let pip pick a compatible version
+pillow<10              # compatible with streamlit 1.26.0
+
+# App framework
+streamlit==1.26.0
+
+# Optional: better exception logging
+rich>=14.1.0
